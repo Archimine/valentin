@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Quieres ser mi Valentín?</title>
+    <style>
+        body {
+            background: url('fondo.gif') no-repeat center center fixed;
+            background-size: cover;
+            text-align: center;
+            color: black;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            margin-top: 20vh;
+        }
+        h1 {
+            font-size: 2.5em;
+        }
+        .gif-container img {
+            width: 300px;
+            height: auto;
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+        .buttons button {
+            padding: 10px 20px;
+            font-size: 1.5em;
+            margin: 10px;
+            cursor: pointer;
+            border: none;
+            border-radius: 10px;
+        }
+        .yes { background-color: #ff4d79; color: white; }
+        .no { background-color: #6666ff; color: white; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>¿Quieres ser mi Valentín?</h1>
+        <div class="gif-container">
+            <img src="gif1.gif" alt="Gif de amor">
+        </div>
+        <div class="buttons">
+            <button class="yes" onclick="location.href='yes.html'">Sí</button>
+            <button class="no" onclick="location.href='no.html'">No</button>
+        </div>
+    </div>
+</body>
+</html>
